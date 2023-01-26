@@ -2,7 +2,7 @@ apiVersion: notification.toolkit.fluxcd.io/v1beta2
 kind: Provider
 metadata:
   name: discord
-  namespace: flux-system
+  namespace: monitoring
 spec:
   type: discord
   channel: notifications
