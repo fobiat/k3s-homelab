@@ -4,4 +4,3 @@ namespace: default
 resources:
   - ./gitrepository.yaml
   - ./deployment.yaml
-  - ./namespace.yaml
