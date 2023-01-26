@@ -1,10 +1,15 @@
 apiVersion: notification.toolkit.fluxcd.io/v1beta2
-kind: Provider
+kind: Alert
 metadata:
-  name: discord
+  name: on-call-webapp
   namespace: flux-system
 spec:
-  type: discord
-  channel: notifications
-  secretRef:
-    name: discord-url
+  summary: "production cluster"
+  providerRef:
+    name: discord
+  eventSeverity: info
+  eventSources:
+    - kind: GitRepository
+      name: '*'
+    - kind: Kustomization
+      name: '*'
