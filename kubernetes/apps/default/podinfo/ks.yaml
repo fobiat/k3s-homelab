@@ -6,7 +6,7 @@ metadata:
 spec:
   interval: 5m
   targetNamespace: podinfo
-  path: ./kubernetes/apps/default/podinfo/
+  path: ./kubernetes/apps/default/podinfo/app
   prune: true
   sourceRef:
     kind: GitRepository
