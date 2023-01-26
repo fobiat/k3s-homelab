@@ -6,7 +6,7 @@ metadata:
 spec:
   interval: 5m
   targetNamespace: podinfo
-  path: ./kubernetes/apps/default/podinfo/app
+  path: ./clusters/my-cluster/podinfo
   prune: true
   sourceRef:
     kind: GitRepository
@@ -15,5 +15,5 @@ spec:
     - apiVersion: apps/v1
       kind: Deployment
       name: podinfo
-      namespace: podinfo
+      namespace: default
   timeout: 1m
