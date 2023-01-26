@@ -6,7 +6,7 @@ metadata:
 spec:
   interval: 5m
   targetNamespace: podinfo
-  path: ./kubernetes/apps/default/podinfo/app/deployment.yaml
+  path: ./kubernetes/apps/default/podinfo/kustomization.yaml
   prune: true
   sourceRef:
     kind: GitRepository
