@@ -19,7 +19,7 @@
 | Node              | Specification                                        |
 | ----------------- | ---------------------------------------------------- |
 | k1.resolv.sh      | 4 Cores, 32gb, 20.04LTS, control-plane,master,worker |
-| k2.resolv.sh| **[WIP]** Raspberry pi 4 8gb, ARM64 tainted worker   |
+| k2.resolv.sh| **[WIP]** ~~Raspberry pi 4 8gb, ARM64 tainted worker~~   |
 
 
 
