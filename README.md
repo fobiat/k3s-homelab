@@ -10,10 +10,11 @@
 
 
 ## Hardware
-- This kubernetes ~~cluster~~ node is currently run on a Dell Optiplex 3050 SFF with 4 Cores and 8 Threads and 32gb RAM.
+- This kubernetes ~~cluster~~ node is currently run on a Dell Optiplex 3050 SFF with 4 Cores, 8 Threads and 32gb RAM.
 - Proxmox for the hypervisor with a Ubuntu Server 20.04lts VM with 500gb nvme boot drive and a 240gb SSD scratch drive for downloading and unzipping *arrs.
 - Synology NAS with 6* 6tb Seagate exos drives in a 24TB pool for computer and cloud backups and plex media storage.
 - HP Microserver gen 8 (i3-3240T, 16gb ram) runs Proxmox for the hypervisor for a pi-hole LXT and a OpnSense VM for the router (with passthrough intel NICs)
+- Raspberry Pi 4 8gb will be a master and worker node for some ARM64 packages.
  
 
 | Node              | Specification                                        |
