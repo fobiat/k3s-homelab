@@ -1,10 +1,11 @@
 # **A kubernetes k3s single node homelab powered by FluxV2 and Github actions.**
 
 ****Version 2*** - currently single node due to unaffordable electric costs in the UK (68.3p/kwh) (see [deprecated k8s cluster running on Dell Poweredge)](https://github.com/fobiat/k8s-gitops)* <br />
-**Member of the k8s-at-home community**  
+## Member of the k8s-at-home community 
 **Github -** https://github.com/k8s-at-home  
 **Repos -** https://github.com/k8s-at-home/awesome-home-kubernetes  
 **Discord -** https://discord.gg/RGvKzVg
+**Personal Discord -** KYLE#9237
 
 
 ## Hardware
