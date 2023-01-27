@@ -1,4 +1,4 @@
-## **A kubernetes k3s single node homelab powered by FluxV2 and Github actions.**
+# **A kubernetes k3s single node homelab powered by FluxV2 and Github actions.**
 
 ****Version 2*** - currently single node due to unaffordable electric costs in the UK (68.3p/kwh) (see [deprecated k8s cluster running on Dell Poweredge)](https://github.com/fobiat/k8s-gitops)* <br />
 **Member of the k8s-at-home community**  
@@ -9,7 +9,7 @@
 
 ## Hardware
 - This kubernetes ~~cluster~~ node is currently run on a Dell Optiplex 3050 SFF with 4 Cores and 8 Threads and 32gb RAM.
-- Proxmox for the hypervisor with a Ubuntu Server 20.04lts VM with 500gb nvme boot drive and a 240gb SSD scratch drive for downloading and unzipping
+- Proxmox for the hypervisor with a Ubuntu Server 20.04lts VM with 500gb nvme boot drive and a 240gb SSD scratch drive for downloading and unzipping *arrs.
 - Synology NAS with 6* 6tb Seagate exos drives in a 24TB pool for computer and cloud backups and plex media storage.
 - HP Microserver gen 8 (i3-3240T, 16gb ram) runs Proxmox for the hypervisor for a pi-hole LXT and a opnsense VM for the router.
  
@@ -44,11 +44,22 @@ This cluster uses a number of tools to work properly:
  * [x] K3s/k3sup bootstrap
  * [x] Calico network manage for interpod networking
  * [x] Traefik for reverse proxy and ingress
+ * [ ] Github Actions CICD
+ * [ ] Encrypted secrets manager (sops?)
  * [ ] Cloudflare DDNS
  * [ ] Cloudflare tunnels for service exposure to the internet
+ * [ ] Wireguard/Tailscale for VPN access 
  * [ ] Grafana and Prometheus for metrics
  * [ ] Self-hosted ghost blog
  * [ ] Various *arrs for media downloading and management
- * [ ] Plex with hardware transcoding
+ * [ ] NFS share for NAS media and backups
+ * [ ] Scratch drive *arrs downloads 
+ * [ ] NordVPN for *arrs downloads
+ * [ ] Plex/Jellyfin with hardware transcoding enabled
+ * [ ] Ubiquity Controller
+ * [ ] Secondary pi-hole instance for high availability 
+ * [ ] Cloud backups of important files to AWS
+ * [ ] Home Assistant
  * [ ] Much more TBD 
+
 
