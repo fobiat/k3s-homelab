@@ -48,17 +48,17 @@ This cluster uses a number of tools to work properly:
  * [x] Calico network manage for interpod networking
  * [x] Traefik for reverse proxy and ingress
  * [x] Add Renovate
- * [ ] Github Actions CICD
- * [ ] Encrypted secrets manager (sops?)
- * [ ] Cloudflare DDNS
+ * [ ] Github Actions CI/CD
+ * [ ] Encrypted secrets manager
+ * [x] Cloudflare DDNS
  * [ ] Cloudflare tunnels for service exposure to the internet
  * [ ] Wireguard/Tailscale for VPN access 
  * [ ] Grafana and Prometheus for metrics
  * [ ] Self-hosted ghost blog
- * [ ] Various *arrs for media downloading and management
+ * [ ] Various .arrs for media downloading and management
  * [ ] NFS share for NAS media and backups
- * [ ] Scratch drive *arrs downloads 
- * [ ] NordVPN for *arrs downloads
+ * [ ] Scratch drive .arrs downloads 
+ * [ ] NordVPN for .arrs downloads
  * [ ] Plex/Jellyfin with hardware transcoding enabled
  * [ ] Ubiquity Controller
  * [ ] Secondary pi-hole instance for high availability 
