@@ -1,3 +1,4 @@
+
 # **A kubernetes k3s single node homelab powered by FluxV2 and Github actions.**
 
 ****Version 2*** - currently single node due to unaffordable electric costs in the UK (68.3p/kwh) (see [deprecated k8s cluster running on Dell Poweredge)](https://github.com/fobiat/k8s-gitops)* <br />
@@ -12,13 +13,13 @@
 - This kubernetes ~~cluster~~ node is currently run on a Dell Optiplex 3050 SFF with 4 Cores and 8 Threads and 32gb RAM.
 - Proxmox for the hypervisor with a Ubuntu Server 20.04lts VM with 500gb nvme boot drive and a 240gb SSD scratch drive for downloading and unzipping *arrs.
 - Synology NAS with 6* 6tb Seagate exos drives in a 24TB pool for computer and cloud backups and plex media storage.
-- HP Microserver gen 8 (i3-3240T, 16gb ram) runs Proxmox for the hypervisor for a pi-hole LXT and a opnsense VM for the router.
+- HP Microserver gen 8 (i3-3240T, 16gb ram) runs Proxmox for the hypervisor for a pi-hole LXT and a OpnSense VM for the router (with passthrough intel NICs)
  
 
 | Node              | Specification                                        |
 | ----------------- | ---------------------------------------------------- |
 | k1.resolv.sh      | 4 Cores, 32gb, 20.04LTS, control-plane,master,worker |
-| k2-arm64.resolv.sh| **[WIP]** Raspberry pi 4 8gb, ARM64 tainted worker   |
+| k2.resolv.sh| **[WIP]** Raspberry pi 4 8gb, ARM64 tainted worker   |
 
 
 
