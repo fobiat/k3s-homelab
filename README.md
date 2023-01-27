@@ -26,19 +26,19 @@
 
 
 ## Packages
-
 This cluster uses a number of tools to work properly:
 
 * Kubernetes k3s - Production-Grade Container Orchestration,
 	automated container deployment, scaling, and management.
-* K3sup- Uses Ansible to deploy a lightweight k3s production ready cluster.
-* Containerd - An industry-standard container runtime with an emphasis on simplicity, robustness and portability.
-* Flux2 - Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.
-* Github - Code hosting platform for version control and collaboration.
+* K3sup- uses Ansible to deploy a lightweight k3s production ready cluster.
+* Containerd - an industry-standard container runtime with an emphasis on simplicity, robustness and portability.
+* Flux2 - open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.
+* Github - code hosting platform for version control and collaboration.
 * Github actions - CI/CD runner for workflows
+* Renovate - universal dependency update tool that fits into your workflows.
 * Calico - an open source networking and network security solution for containers.
 * Cloudflare DDNS - service that keeps the DNS updated with a web property's correct IP address.
-* Cloudflare Tunnels 
+* Cloudflare Tunnels - secure and encrypt application traffic to any type of infrastructure
 * ~~MetalLB - load-balancer implementation for bare metal Kubernetes clusters.~~
 
 ## To Do 
@@ -46,6 +46,7 @@ This cluster uses a number of tools to work properly:
  * [x] K3s/k3sup bootstrap
  * [x] Calico network manage for interpod networking
  * [x] Traefik for reverse proxy and ingress
+ * [x] Add Renovate
  * [ ] Github Actions CICD
  * [ ] Encrypted secrets manager (sops?)
  * [ ] Cloudflare DDNS
