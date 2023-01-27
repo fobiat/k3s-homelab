@@ -6,7 +6,7 @@
 **Github -** https://github.com/k8s-at-home  
 **Repos -** https://github.com/k8s-at-home/awesome-home-kubernetes  
 **Discord -** https://discord.gg/RGvKzVg
-**Personal Discord -** KYLE#9237
+
 
 
 ## Hardware
